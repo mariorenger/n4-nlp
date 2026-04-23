@@ -1,0 +1,14 @@
+numpy>=1.24
+pandas>=2.0
+torch>=2.1
+transformers>=4.40
+accelerate>=0.28
+sentencepiece
+rank-bm25
+FlagEmbedding>=1.2.10
+scikit-learn
+tqdm
+regex
+einops
+fastapi
+uvicorn
