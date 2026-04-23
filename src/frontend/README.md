@@ -1,8 +1,6 @@
 # Law Consultant AI Platform - Hướng dẫn vận hành v3.0
 
 Hệ thống tư vấn pháp luật sử dụng kiến trúc Hybrid RAG (Dense + Sparse Retrieval).
-![image](images/demo.png)
-
 
 ## 1. Cơ chế Prompt & LLM (Thống nhất)
 Hệ thống sử dụng **Cài đặt Prompt tập trung** để đảm bảo tính đồng bộ:
@@ -48,4 +46,3 @@ Dữ liệu được lưu bền vững tại thư mục `data/` dưới định 
 ### POST /feedback
 - **Input**: `{ "messageId": "string", "rating": "like|dislike", "comment": "string (optional)" }`
 - **Output**: `{ "status": "success" }`
-
